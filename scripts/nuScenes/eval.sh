@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=6 python ../../main.py --dataset_dir '' --dataset_name 'nuScenes' --device 'cuda' --batch_size 8 --ckpt_load_iter 0 --ckpt_dir '../../ckpts' --max_iter 0 --dt 0.5 --obs_len 4 --pred_len 12 --scale 1.0 --num_goal 3 --heatmap_size 256 --n_w 5 --n_z 1

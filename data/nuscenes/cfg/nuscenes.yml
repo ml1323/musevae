@@ -1,0 +1,20 @@
+# ------------------- General Options -------------------------
+
+description                  : AgentFormer (Before DLow)
+results_root_dir             : results
+seed                         : 1
+dataset                      : nuscenes_pred
+data_root_nuscenes_pred      : ../../datasets/nuScenes
+load_map                     : true
+map_version                  : 0.1
+
+# ------------------- Feature Extractor -------------------------
+
+past_frames                  : 4
+future_frames                : 12
+min_past_frames              : 2
+min_future_frames            : 12
+
+traj_scale                   : 1
+motion_dim                   : 2
+forecast_dim                 : 2

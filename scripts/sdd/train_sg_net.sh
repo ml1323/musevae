@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=6 python ../../main.py --run_id 1 --model_name 'sg_net' --device 'cuda' --batch_size 32 --lr 1e-4 --ckpt_load_iter 0 --max_iter 12900 --ckpt_dir '../../ckpts' --dt 0.4 --obs_len 8 --pred_len 12 --dataset_dir '../../datasets/sdd' --dataset_name 'sdd' --scale 100.0 --heatmap_size 256 --num_goal 3
